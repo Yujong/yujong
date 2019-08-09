@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <tabs>
+        <tab
+            id="@+id/single_vocie"
+            icon="@drawable/baseline_mic_none_white_24dp"
+            title="" />
+        <tab
+            id="@+id/duet_voice"
+            icon="@drawable/baseline_group_white_24dp"
+            title="" />
+        <tab
+            id="@+id/voice_list"
+            icon="@drawable/baseline_menu_white_24dp"
+            title="" />
+        <tab
+            id="@+id/myinfo"
+            icon="@drawable/baseline_person_white_24dp"
+            title="" />
+    </tabs>
+
+
+</PreferenceScreen>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:background="#FFFFFF"
+    >
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/single_mic_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/goolglelogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/googlelogin_btn"
+            android:textStyle="bold"
+            android:text="google login"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            />
+        <Button
+            android:id="@+id/kakaologin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kakao계정 login"
+            android:background="@drawable/kakaologin_btn"
+            android:textStyle="bold"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            />
+        <Button
+            android:id="@+id/faceboocklogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="faceboock으로 계속하기"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/faceboocklogin_btn"
+            android:textStyle="bold"
+            />
+
+
+
+        출처: http://altongmon.tistory.com/432 [IOS를 Java]
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        />
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/round_account_circle_white_24dp"
+            android:drawableStart="@drawable/round_account_circle_white_24dp"
+            android:hint="이메일을 입력해 주세요"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <EditText
+            android:id="@+id/login_password"
+            android:background="@drawable/shape"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="비밀번호를 입력해 주세요"
+            android:textSize="20dp"
+            android:textColorHint="#FFFFFF"
+            android:drawableStart="@drawable/round_lock_white_24dp"
+            android:drawableLeft="@drawable/round_lock_white_24dp"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/signupmove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="회원가입"
+                />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/loginok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/buttonshape"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="로그인"
+                />
+
+        </RelativeLayout>
+</LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>

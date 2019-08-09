@@ -1,0 +1,2 @@
+include ':app', ':webrtc-client', ':sample', ':webrtc', ':livevideobroadcastersdk', ':rtmp', ':encoder', ':rtplibrary', ':rtsp', ':rtmp-rtsp-stream-client-java-master', ':fftlibrary'
+include ':openCVLibrary343'
